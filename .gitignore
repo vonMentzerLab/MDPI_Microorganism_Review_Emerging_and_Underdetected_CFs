@@ -1,0 +1,16 @@
+That's completely fine. Those are convenience options—you can add them afterward.
+Option 1 (what I'd do)
+Just create the two files manually in the repository folder.
+.gitignore
+Create a file called:
+.gitignore
+For an R project, something like this is a good start:
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+*.html
+*.pdf
+
+.DS_Store
